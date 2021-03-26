@@ -985,7 +985,7 @@ body:not(.touch-device) .header__item:hover .header__body { -webkit-transform: t
 
 .features__status:before { content: ""; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 40px; height: 1px; background: #fff; }
 
-.features__statustitle { position: absolute; left: 0; bottom: 200px; display: -webkit-box; display: -ms-flexbox; display: flex; width: 135px; font-size: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-family: 'DM Sans', sans-serif; font-weight: 500; }
+.features__statustitle { position: absolute; left: 0; bottom: 230px; display: -webkit-box; display: -ms-flexbox; display: flex; width: 135px; font-size: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-family: 'DM Sans', sans-serif; font-weight: 500; }
 
 .features__bg { position: absolute; top: 0; left: calc(50% - 1142px); font-size: 0; }
 
