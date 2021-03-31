@@ -339,14 +339,19 @@ $(document).ready(function () {
             menu = item.find('.js-footer-menu');
 
         category.on('click', function () {
-            if (!category.hasClass('active')) {
+            if (item.hasClass('active')) {
                 items.removeClass('active');
                 items.find('.js-footer-menu').slideUp();
-                item.addClass('active');
-                menu.slideDown();
             } else {
-                items.removeClass('active');
-                items.find('.js-footer-menu').slideUp();
+                if (!category.hasClass('active')) {
+                    items.removeClass('active');
+                    items.find('.js-footer-menu').slideUp();
+                    item.addClass('active');
+                    menu.slideDown();
+                } else {
+                    items.removeClass('active');
+                    items.find('.js-footer-menu').slideUp();
+                }
             }
         });
     });

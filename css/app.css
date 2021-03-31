@@ -1611,7 +1611,9 @@ body:not(.touch-device) .header__item:hover .header__body { -webkit-transform: t
 
 .design__circle:nth-child(3) { top: -250px; right: calc(50% - 443px); width: 64px; height: 64px; background: #5956E9; }
 
-.design__pic { width: 53%; }
+.design__pic { width: 100%; }
+
+.design__logopic { width: 53%; }
 
 .design__scroll { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; margin-bottom: 80px; font-weight: 500; letter-spacing: -.04em; color: #999FAE; }
 

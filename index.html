@@ -43,79 +43,9 @@
         <div class="header js-header" id="header">
           <div class="header__center center"><button class="header__burger js-header-burger"><span></span></button><a class="header__logo" href="#"><img class="header__pic" src="img/logo.png" alt=""></a>
             <div class="header__wrap js-header-wrap">
-              <nav class="header__nav"><a class="header__item" href="#">Features</a><a class="header__item" href="#">Pricing</a><a class="header__item" href="#">Tours</a>
-                <div class="header__item js-header-item"><a class="header__head js-header-head" href="#">Explore<svg class="icon icon-arrow-down">
-                      <use xlink:href="img/sprite.svg#icon-arrow-down"></use>
-                    </svg></a>
-                  <div class="header__body js-header-body">
-                    <div class="header__center center">
-                      <div class="header__row">
-                        <div class="header__col">
-                          <div class="header__category">Features</div>
-                          <div class="header__menu"><a class="header__box" href="#">
-                              <div class="header__preview"><img class="header__pic" src="img/cup.png" alt=""></div>
-                              <div class="header__deetails">
-                                <div class="header__info">Collab Assistant</div>
-                                <div class="header__text">Smart automation system</div>
-                              </div>
-                            </a><a class="header__box" href="#">
-                              <div class="header__preview"><img class="header__pic" src="img/camera.png" alt=""></div>
-                              <div class="header__deetails">
-                                <div class="header__info">Advanced Importer</div>
-                                <div class="header__text">Work with various media formats</div>
-                              </div>
-                            </a><a class="header__box" href="#">
-                              <div class="header__preview"><img class="header__pic" src="img/calendar.png" alt=""></div>
-                              <div class="header__deetails">
-                                <div class="header__info">Product Management</div>
-                                <div class="header__text">Workspace reimagined</div>
-                              </div>
-                            </a></div>
-                        </div>
-                        <div class="header__col">
-                          <div class="header__category">Features</div>
-                          <div class="header__menu"><a class="header__box" href="#">
-                              <div class="header__preview"><img class="header__pic" src="img/chatbox.png" alt=""></div>
-                              <div class="header__deetails">
-                                <div class="header__info">Support</div>
-                                <div class="header__text">24/7 Live Support</div>
-                              </div>
-                            </a><a class="header__box" href="#">
-                              <div class="header__preview"><img class="header__pic" src="img/fill.png" alt=""></div>
-                              <div class="header__deetails">
-                                <div class="header__info">Color Picker</div>
-                                <div class="header__text">Advanced color picker</div>
-                              </div>
-                            </a></div>
-                        </div>
-                        <div class="header__col">
-                          <div class="header__category">Company</div>
-                          <div class="header__menu"><a class="header__box" href="#">
-                              <div class="header__preview"><img class="header__pic" src="img/clock.png" alt=""></div>
-                              <div class="header__deetails">
-                                <div class="header__info">Collab Team</div>
-                                <div class="header__text">See who’s behind the magic</div>
-                              </div>
-                            </a><a class="header__box" href="#">
-                              <div class="header__preview"><img class="header__pic" src="img/bell-flat.png" alt=""></div>
-                              <div class="header__deetails">
-                                <div class="header__info">Collab Design</div>
-                                <div class="header__text">What we’re working on</div>
-                              </div>
-                            </a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </nav>
+              <nav class="header__nav"><a class="header__item" href="#aboutus">About Us</a><a class="header__item" href="#projects">Projects</a><a class="header__item" href="#principles">Principles</a><a class="header__item" href="#technologies">Tech Stack</a><a class="header__item" href="https://medium.com/@devsquirrel">Blogs</a></nav>
               <div class="header__photo"><img class="header__pic" src="img/menu-pic.png" alt=""></div>
             </div>
-            <div class="header__search js-header-search"><button class="header__open js-header-open"><svg class="icon icon-search">
-                  <use xlink:href="img/sprite.svg#icon-search"></use>
-                </svg></button>
-              <div class="header__field"><input class="header__input" type="text" placeholder="Search ..."></div>
-            </div><a class="header__btn btn btn_pink" href="login.html">Get Started</a>
           </div>
           <div class="header__bg js-header-bg"></div>
         </div>
@@ -123,10 +53,7 @@
           <div class="main__wrap">
             <h1 class="main__title title title_big" data-aos><span class="title__box"><span class="title__text">Innovate</span></span><span class="title__box"><span class="title__text"><span class="title__line">Outshine</span></span></span><span class="title__box"><span class="title__text">Evolve<span class="title__color">.</span></span></span></h1>
             <div class="main__info info" data-aos="animation-scale-y" data-aos-delay="400">Create, build, collaborate and ship products faster. Good bye code! 👋</div>
-            <div class="main__control" data-aos="animation-scale-y" data-aos-delay="550"><a class="main__btn btn btn_purple" href="login.html">Get Started</a><a class="main__link" href="#">
-                <div class="main__icon"><img class="main__pic" src="img/play.svg" alt=""></div>
-                <div class="main__text">See It In Action!</div>
-              </a></div>
+            <div class="main__control" data-aos="animation-scale-y" data-aos-delay="550"><a class="main__btn btn btn_purple js-popup-open" href="#popup-contact" data-effect="mfp-zoom-in">Get Started</a></div>
             <div class="main__scroll" data-aos="animation-scale-y" data-aos-delay="650"><a class="main__link" href="#">
                 <div class="main__icon"><img class="main__pic" src="img/scroll.svg" alt=""></div>
                 <div class="main__text">Scroll to explore</div>
@@ -150,7 +77,7 @@
           </div>
         </div>
       </div>
-      <div class="features js-features">
+      <div class="features js-features" id="aboutus">
         <div class="features__center center">
           <div class="features__head" data-aos="animation-scale-y">
             <div class="features__box">
@@ -220,7 +147,7 @@
         <div class="features__bg" data-aos data-aos-duration="1000"><img class="features__pic" src="img/features-pic-1.svg" alt=""></div>
       </div>
       <div style="margin-top: 10%;"></div>
-      <div class="design">
+      <div class="design" id="projects">
         <div class="design__center center">
           <div class="design__wrap" data-aos="animation-translate-y">
             <div class="design__stage stage">Our Projects</div>
@@ -239,7 +166,7 @@
               <div class="design__slider js-design-slider">
                 <div class="design__slide" data-aos="animation-translate-y" data-aos-delay="0">
                   <div class="design__view">
-                    <div class="design__preview"><img class="design__pic" src="img/certopus.png" alt=""></div>
+                    <div class="design__preview"><img class="design__logopic" src="img/certopus.png" alt=""></div>
                   </div>
                   <div class="design__details">
                     <div class="design__category">Cross-Platform Application</div>
@@ -251,7 +178,7 @@
                 </div>
                 <div class="design__slide" data-aos="animation-translate-y" data-aos-delay="200">
                   <div class="design__view">
-                    <div class="design__preview"><img class="design__pic" src="img/cardnation.png" alt=""></div>
+                    <div class="design__preview"><img class="design__logopic" src="img/cardnation.png" alt=""></div>
                   </div>
                   <div class="design__details">
                     <div class="design__category">Game</div>
@@ -263,7 +190,7 @@
                 </div>
                 <div class="design__slide" data-aos="animation-translate-y" data-aos-delay="400">
                   <div class="design__view">
-                    <div class="design__preview"><img class="design__pic" src="https://i.imgur.com/oC1ct3j.png" alt=""></div>
+                    <div class="design__preview"><img class="design__logopic" src="https://i.imgur.com/oC1ct3j.png" alt=""></div>
                   </div>
                   <div class="design__details">
                     <div class="design__category">Web App</div>
@@ -275,7 +202,7 @@
                 </div>
                 <div class="design__slide" data-aos="animation-translate-y" data-aos-delay="0">
                   <div class="design__view">
-                    <div class="design__preview"><img class="design__pic" src="https://analyticstoai.in/img/logo.png" alt=""></div>
+                    <div class="design__preview"><img class="design__logopic" src="https://analyticstoai.in/img/logo.png" alt=""></div>
                   </div>
                   <div class="design__details">
                     <div class="design__category">Website</div>
@@ -293,12 +220,12 @@
       <div class="work">
         <div class="work__center center">
           <div class="work__head">
-            <div class="work__stage stage">Collaboration Redefined</div>
-            <h2 class="work__title title"><span class="title__color">Get Work<br> Done</span> together</h2>
+            <div class="work__stage stage">Our Expertise</div>
+            <h2 class="work__title title"><span class="title__color">Write Once<br> Run</span> Anywhere</h2>
           </div>
           <div class="work__details" data-aos="animation-translate-y" data-aos-duration="800">
-            <div class="work__icon"><img class="work__pic" src="img/balls.svg" alt=""></div>
-            <div class="work__text">Let your personalized Collab assistant do the heavy lifting while you focus on creating.</div><a class="work__link" href="#">Find out more</a>
+            <div class="work__icon"><img class="work__pic" src="https://img.icons8.com/color/100/000000/flutter.png" alt=""></div>
+            <div class="work__text">Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.</div><a class="work__link" href="https://flutter.dev/">Find out more</a>
           </div>
         </div>
         <div class="work__hands">
@@ -316,7 +243,7 @@
         </div>
         <div class="work__cursor" data-aos><img class="work__pic" src="img/cursor.png" alt=""></div>
       </div>
-      <div class="quality">
+      <div class="quality" id="principles">
         <div class="quality__head">
           <div class="quality__center center">
             <div class="quality__top" data-aos="animation-scale-y">
@@ -371,7 +298,7 @@
           <div class="quality__circle"></div>
         </div>
       </div>
-      <div class="partners">
+      <div class="partners" id="technologies">
         <div class="partners__center center">
           <div class="partners__head" data-aos="animation-scale-y">
             <div class="partners__stage stage">Tech Stack</div>
@@ -426,13 +353,13 @@
               <div class="footer__category js-footer-category">Company<svg class="icon icon-arrow-down">
                   <use xlink:href="img/sprite.svg#icon-arrow-down"></use>
                 </svg></div>
-              <div class="footer__menu js-footer-menu"><a class="footer__link" href="#">About us</a><a class="footer__link" href="#">Jobs</a><a class="footer__link" href="#">Press</a><a class="footer__link" href="#">Blog</a></div>
+              <div class="footer__menu js-footer-menu"><a class="footer__link" href="#">About us</a><a class="footer__link" href="#">Jobs</a><a class="footer__link" href="#">Press</a><a class="footer__link" href="https://medium.com/@devsquirrel">Blog</a></div>
             </div>
             <div class="footer__col js-footer-col">
               <div class="footer__category js-footer-category">Support<svg class="icon icon-arrow-down">
                   <use xlink:href="img/sprite.svg#icon-arrow-down"></use>
                 </svg></div>
-              <div class="footer__menu js-footer-menu"><a class="footer__link" href="#">Contact us</a><a class="footer__link" href="#">Cookies</a><a class="footer__link" href="#">Privacy & terms</a><a class="footer__link" href="#">Sitemap</a></div>
+              <div class="footer__menu js-footer-menu"><a class="footer__link js-popup-open" href="#popup-contact" data-effect="mfp-zoom-in">Contact us</a><a class="footer__link" href="#">Cookies</a><a class="footer__link" href="#">Privacy & terms</a><a class="footer__link" href="#">Sitemap</a></div>
             </div>
             <div class="footer__col js-footer-col">
               <div class="footer__category js-footer-category">Community<svg class="icon icon-arrow-down">
